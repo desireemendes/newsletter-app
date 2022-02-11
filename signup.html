@@ -48,20 +48,20 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form action="/" method="POST">
     <img class="mb-4" src="images/D.png" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Signup To My Newsletter!</h1>
 
     <div class="form-floating">
-      <input type="tet" class="form-control top" placeholder="First name" required autofocus>
+      <input type="text" name="fName" class="form-control top" placeholder="First name" required autofocus>
      
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle" placeholder="Last name"required>
+      <input type="text" name="lName" class="form-control middle" placeholder="Last name"required>
     </div>
 
     <div class="form-floating">
-      <input type="email" class="form-control bottom" placeholder="Email address" required>
+      <input type="email" name="email" class="form-control bottom" placeholder="Email address" required>
     </div>
 
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me up</button>
